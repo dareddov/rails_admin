@@ -205,6 +205,10 @@ module RailsAdmin
           [Date.today, Date.today]
         end
 
+        def tomorrow
+          [Date.tomorrow, Date.tomorrow]
+        end
+
         def yesterday
           [Date.yesterday, Date.yesterday]
         end

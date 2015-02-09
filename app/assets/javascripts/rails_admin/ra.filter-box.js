@@ -32,6 +32,7 @@
             '<option ' + (field_operator == "default"   ? 'selected="selected"' : '') + ' data-additional-fieldset="default" value="default">' + RailsAdmin.I18n.t("date") + '</option>' +
             '<option ' + (field_operator == "between"   ? 'selected="selected"' : '') + ' data-additional-fieldset="between" value="between">' + RailsAdmin.I18n.t("between_and_") + '</option>' +
             '<option ' + (field_operator == "today"   ? 'selected="selected"' : '') + ' value="today">' + RailsAdmin.I18n.t("today") + '</option>' +
+            '<option ' + (field_operator == "tomorrow"   ? 'selected="selected"' : '') + ' value="tomorrow">' + RailsAdmin.I18n.t("tomorrow") + '</option>' +
             '<option ' + (field_operator == "yesterday"   ? 'selected="selected"' : '') + ' value="yesterday">' + RailsAdmin.I18n.t("yesterday") + '</option>' +
             '<option ' + (field_operator == "this_week"   ? 'selected="selected"' : '') + ' value="this_week">' + RailsAdmin.I18n.t("this_week") + '</option>' +
             '<option ' + (field_operator == "last_week"   ? 'selected="selected"' : '') + ' value="last_week">' + RailsAdmin.I18n.t("last_week") + '</option>' +
