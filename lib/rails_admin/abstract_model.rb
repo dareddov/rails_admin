@@ -194,6 +194,7 @@ module RailsAdmin
           case @operator
           when 'between'   then between
           when 'today'     then today
+          when 'tomorrow'  then tomorrow
           when 'yesterday' then yesterday
           when 'this_week' then this_week
           when 'last_week' then last_week
